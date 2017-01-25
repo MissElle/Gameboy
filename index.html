@@ -26,25 +26,95 @@
         </article>  
       </div></div>
       
+      <form>
       <div class="row">
-        <div class="w33">Name</div>
-        <div class="w334">Race</div>
-        <div class="w33">Gender</div>
+        <div class="w33">
+          <label>Name:<input type="text" name="name" required></label>
+        </div>
+        <div class="w334">
+          <label>Race:<input type="text" name="race" required></label>
+        </div>
+        <div class="w33">
+          <label>Gender:<input type="text" name="Gender" required></label>
+        </div>
       </div>
       
       <div class="row">
-        <div class="w100">Description/Background</div>
+        <div class="w100"><textarea name="Description" rows="20" cols="118" placeholder="Tell us a bit about your character... What do they like to do? What makes them special?"></textarea></div>
       </div>
       
       <div class="row">
-        <div class="w16">Color</div>
-        <div class="w16">Skin</div>
-        <div class="w66">Attributes</div>
+        <div class="w16"><fieldset>
+          <legend>Color</legend>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="blue">Blue</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="green">Green</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="yellow">Yellow</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="orange">Orange</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="red">Red</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="color" value="Violet">Violet</label></div></div>
+          
+        </fieldset></div>
+        
+        <div class="w16"><fieldset>
+          <legend>Skin</legend>
+      
+          <div class="row"><div class="w100"><label><input type="radio" name="skin" value="flesh">Flesh</label></div></div>
+        
+          <div class="row"><div class="w100"><label><input type="radio" name="skin" value="fur">Fur</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="skin" value="feathers">Feathers</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="skin" value="Scales">Scales</label></div></div>
+          
+          <div class="row"><div class="w100"><label><input type="radio" name="skin" value="platypus">Platypus</label></div></div>
+          
+        </fieldset></div>
+        
+        <div class="w66"><fieldset><legend>Attributes</legend>
+          
+          <div class="row">
+            
+          <div class="w50"><label><input type="checkbox" name="attribute" value="tail">Tail</label></div>
+          
+          <div class="w50"><label><input type="checkbox" name="attribute" value="teeth">Multipile rows of Teeth</label></div>
+          </div>
+          
+          <div class="row">
+            
+          <div class="w50"><label><input type="checkbox" name="attribute" value="wings">Wings</label></div>
+          
+          <div class="w50"><label><input type="checkbox" name="attribute" value="legs">Only legs</label></div>
+          </div>
+          
+          <div class="row">
+          <div class="w50"><label><input type="checkbox" name="attribute" value="gills">Gills</label></div>
+          
+          <div class="w50"><label><input type="checkbox" name="attribute" value="arms">Only Arms</label></div>
+          </div>
+          
+          <div class="row">
+          <div class="w50"><label><input type="checkbox" name="attribute" value="fins">Fins</label></div>
+            
+          <div class="w50"><label><input type="checkbox" name="attribute" value="brain">Only a Brain</label></div>
+          </div>
+          
+          <div class="row"><div class="w00"><label><input type="checkbox" name="attribute" value="claws">Claws</label></div></div>
+          
+        </fieldset></div>
       </div>
       
       <div class="row">
-        <div class="w100">Submit</div>
+        <div class="w100">
+          <input type="submit" value="Let's Make a Character!" name="submit">
+        </div>
       </div>
+      </form>
     </div>
     
   </body>
