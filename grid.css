@@ -45,8 +45,9 @@ div.w50 {width: 50%;}
 div.w75 {width: 75%;}
 div.w25 {width: 25%;}
 
-/* grids by thirds */
+/* grids by thirds and sixths */
 div.w66 {width: 66.667%;}
+div.w16 {width: 16.6666%;}
 div.w33 {width: 33.333%;}
 div.w334 {width: 33.334%;} /* <-- This will help prevent formatting issues, must be used as one of the grids for 1/3 1/3 1/3 grid structure */
 
