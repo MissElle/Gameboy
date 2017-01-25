@@ -1,0 +1,107 @@
+/* This css is only for the styling of index.html. It does not do anything for the layout of the website; layout includes margins and padding */
+
+/* Google fonts family
+
+font-family: 'Share Tech Mono', monospace;
+font-family: 'VT323', monospace;
+font-family: 'Droid Sans Mono', monospace;
+
+*/
+
+html {
+  background-color: #b6b6b4;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: "VT323";
+  color: #751052;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: "VT323";
+  color: #04004d;
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: "VT323";
+  color: #04004d;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Share Tech Mono";
+  background-color: #425213;
+  color: #bbcf78;
+  text-align: justify;
+  padding: 1rem 1.7rem;
+  border-color: #020e01;
+  border-style: solid;
+  border-top-width: .5rem;
+  border-right-width: .4rem;
+  border-bottom-width: .2rem;
+  border-left-width: .3rem;
+}
+
+div.container {
+  padding: .5rem;
+}
+
+form {
+  background-color: #4f505d;
+  font-family: "Droid Sans Mono";
+  color: #c5d2de;
+}
+
+input[type=text] {
+  width: 70%;
+  box-sizing: border-box;
+  font-family: "Share Tech Mono";
+  background-color: #425213;
+  color: #bbcf78;
+  padding: .5rem;
+}
+
+#button {text-align: right;}
+
+input[type=submit] {
+  background-color: #891d4f;
+  border-color: #66183c;
+  border-style: solid;
+  border-width: .2rem .1rem .1rem .2rem;
+  border-radius: 10%;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "Share Tech Mono";
+  background-color: #425213;
+  color: #bbcf78;
+  text-align: justify;
+  padding: 1rem 1.7rem;
+  border-color: #020e01;
+  border-style: solid;
+  border-top-width: .5rem;
+  border-right-width: .4rem;
+  border-bottom-width: .2rem;
+  border-left-width: .3rem;
+}
+
+legend {
+  font-weight: bold;
+  font-family: "VT323";
+  font-size: 2rem;
+}
+
+fieldset {
+  border-style: dashed;
+  border-color: #b6b6b4;
+}
