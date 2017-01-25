@@ -23,6 +23,11 @@ div.row:after {
   clear: both;
 }
 
+[class^='w']  {
+    float: left;
+    padding: .5rem;
+}
+
 div.w100 {width: 100%;}
 
 /* grids by tenths */
